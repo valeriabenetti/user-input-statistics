@@ -1,21 +1,13 @@
-puts "What is the first number?"
-first_number = gets.chomp.to_i
 
-puts "What is the second number?"
-second_number = gets.chomp.to_i
+  puts "Enter a number or hit enter/return key"
+  numbers = gets.chomp.to_f
+  array = [numbers]
 
-puts "What is the third number?"
-third_number = gets.chomp.to_i
+  #if number <= 0
 
-puts "What is the fourth number?"
-fourth_number = gets.chomp.to_i
-
-puts "What is the fifth number?"
-fifth_number = gets.chomp.to_i
-
-total = first_number + second_number + third_number + fourth_number + fifth_number
-
-puts "Your total is #{total}"
-
-average = total / 5
-puts "Your average is #{average}"
+  #  array = [number]
+  #    number =  gets.chomp.to_f
+  #else
+#    if number = " "
+#  end
+#puts "Your total is #{total}
